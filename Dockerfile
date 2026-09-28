@@ -15,4 +15,6 @@ WORKDIR /app/
 RUN python -m pip install --no-cache-dir --upgrade pip
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
+RUN python -c "import shutil; print('FFMPEG:', shutil.which('ffmpeg')); print('ARIA2:', shutil.which('aria2c')); print('YT-DLP:', shutil.which('yt-dlp'))"
+
 CMD ["bash", "start"]
