@@ -14,7 +14,7 @@ hachoir
 motor==3.3.2
 pillow==9.5.0
 psutil
-py-tgcalls
+py-tgcalls==0.9.7
 pykeyboard
 pymongo==4.6.3
 python-dotenv
@@ -35,6 +35,7 @@ unidecode
 urllib3
 wget
 py-yt-search
+
 git+https://github.com/KurimuzonAkuma/pyrogram
 git+https://github.com/yt-dlp/yt-dlp.git
 git+https://github.com/alexmercerind/youtube-search-python@main
